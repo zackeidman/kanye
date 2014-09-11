@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+h1 {
+	color: #ffd700;
+	font-size: 6em;
+=======
 #wrapper {
 	width: 900px;
 	height: 500px;
 	margin: 0 auto;
+>>>>>>> 1b7ef12d41ca56c6f549d28b6ad619c07974cd5f
 }
