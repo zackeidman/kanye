@@ -1,0 +1,254 @@
+/* Start nav bar styling */
+
+#wrapper {
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.header-bar {
+	width: 100%;
+	height: fit;
+	background-color: lightgray;
+	opacity: .9;
+	border-radius: 0 0 3px 3px;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+
+.header-bar-box{
+	height: 50px;
+	width: fit;
+	float: left;
+	opacity: 1;
+}
+
+#logo {
+	margin: 5px 0 0 30px;
+}
+
+
+#nav {
+	float: right;
+	margin-right: 30px;
+}
+
+#nav ul{
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+#nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	opacity: 1;
+	transition: color .5s ease;
+}
+
+#nav a:hover{
+	color: gray;
+}
+
+/* End of header and nav styling */
+
+/* n.brown index.html styling */
+#mainwrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#title {
+	font-size: 12em;
+	text-align: center;
+	margin: 150px auto 0 auto;
+	-webkit-transition-property:color, text;
+	-webkit-transition-duration: 1s, 1s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property:color, text;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function: linear, ease-in;
+
+	-o-transition-property:color, text;
+	-o-transition-duration:1s;
+	-o-transition-timing-function: linear, ease-in;
+}
+
+#title:hover {
+	color: #ffd700;
+}
+
+#choices {
+	width: 900px;
+	margin-top: 55px;
+}
+
+
+.circle {
+	float: left;
+	width: 375px;
+	height: 375px;
+	border-radius: 100%;
+	margin: 0 ;
+	transition: box-shadow 1s ease;
+}
+
+.circle:hover {
+	box-shadow: 8px 8px 8px #000;
+}
+
+#question {
+	float: left;
+	text-align: center;
+	margin: 0 0;
+	width: 125px;
+	height: 375px;
+	vertical-align: middle;
+}
+
+#question img {
+	margin-top: 165px;
+}
+
+
+.divwrapper{
+	float:left;
+	width:400px;
+}
+
+#for {
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+
+#against {
+	background-image: url(../images/devil.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+/* end n.brown index.html styling */
+
+
+/* start about.html styling */
+
+.about-wrapper {
+	height: fit;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+#about-title {
+	text-align: center;
+}
+
+.team-member-box{
+	width: 400px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 50px;
+}
+
+.team-member-box img{
+	float: left;
+}
+
+.team-member-box p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+/* end of about.html styling */
+
+/* styles for agaisnt Kanye.html franky */
+
+.mainContext{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+#agaisntHead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+#agaisntLogo{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 1px solid #3f3f3f;
+	background-image: url(../images/devil.jpg);
+	background-position: 50% 50%;
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#forLogo{
+	display:inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 1px solid #3f3f3f;
+	background-image: url(../images/icon.jpg);
+	background-position: 50% 50%;
+	background-size: 125%;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#forHead{
+	text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+#agaisntList{
+	width: 75%;
+	display: inline-block;
+}
+
+#forList{
+	width: 40%;
+	display: inline-block;
+}
+
+.agaisntKanye{
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+#btmWrapper{
+	width: 100%;
+	}
+
+#agtvideobox{
+	width: 450px;
+	float: left;
+}
+
+
+#agtkanyeStories{
+	float: right;
+}
+
+.forKanye{
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+/* end of styles for franky add */
